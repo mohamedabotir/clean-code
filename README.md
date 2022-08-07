@@ -21,6 +21,13 @@ chapter 3
 ## bad comment
 - mumbling not important code
 - redundant when comment is greater than body best use comment in interface or abstract class
-- misleading if comment not informative enough or wrong comment
+- misleading if comment not informative enough or wrong statement in comment
 - mandated comment for every variable in function 
+- journal comments example when edit in module you write when edit and why and every edit in module write it 
+- noise comment They restate the obvious and provide no new information ex:write comment to describe constructor
 
+## some best 
+- closing brace comment comment in end of long function but the better is use shorter function
+- attribution by line comment to who write this code the best way source control system 
+- commenting out code unused code don't do that !
+- non local information don't use information out of current source context
