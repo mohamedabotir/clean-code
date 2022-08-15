@@ -31,3 +31,19 @@ chapter 3
 - attribution by line comment to who write this code the best way source control system 
 - commenting out code unused code don't do that !
 - non local information don't use information out of current source context
+
+# chapter 5
+ ## Vertical
+ ### Vertical Openess
+  make vertical space between individual piece of code example between two imports or between every function
+ ### Vertical Density
+  you needn't to add comment between every variables example if you has two variables has relationship you shouldn't break it by comment or space
+ ### Vertical Distance
+  any two component depends on each other or there is some links should be near with each other
+ ### Variable Declaration
+  declare variable near of it's use example if you will use varaiable in loop declare it before loop directly
+ ### Dependent Function
+  if function call another function  so the called function must be behind caller function  or has the same name scheme should be near of each other
+ # Horizontal
+   ### limit   must be at most 120 charachters
+ #ِِ Indentation
