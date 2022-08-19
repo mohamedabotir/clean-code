@@ -32,6 +32,8 @@ chapter 3
 - commenting out code unused code don't do that !
 - non local information don't use information out of current source context
 
+
+
 # chapter 5
  ## Vertical
  ### Vertical Openess
@@ -47,3 +49,11 @@ chapter 3
  # Horizontal
    ### limit   must be at most 120 charachters
  #ِِ Indentation
+# chapter 7
+## use unchecked exception
+## provide context with exception log
+## in terms of class needs example rather catch varity exception you can wrap this class lead to exception and handle it inside warpper class like put handler inside model
+## define the normal flow
+## if exception lead to specific change in business logic then you should make special case from such object like make PersonNull case from Person and so on .
+##don't return null 
+##don't pass null
