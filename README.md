@@ -55,5 +55,16 @@ chapter 3
 ## in terms of class needs example rather catch varity exception you can wrap this class lead to exception and handle it inside warpper class like put handler inside model
 ## define the normal flow
 ## if exception lead to specific change in business logic then you should make special case from such object like make PersonNull case from Person and so on .
-##don't return null 
-##don't pass null
+## don't return null 
+## don't pass null
+
+# Boundaries
+ ## use thired party library
+   Example Sensor s = (Sensor)sensors.get(sensorId ) this is bad design because cast returned item inside client code the best encapuslate it inside Sensor type
+     public class Sensors {
+private Map sensors = new HashMap();
+public Sensor getById(String id) {
+return (Sensor) sensors.get(id);
+}
+//snip
+}
