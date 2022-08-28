@@ -134,5 +134,7 @@ code, then you may find the production code to be hard to test.
 ## Class
 ### class should be smaller how we measure it not as function we count physical line but by class responsability 
 ### Cohesion the more instance variable methods used the more class cohesion
-### maintaining Cohesion if we have function own 4 variables and we want to extract method from it now we need to upgrade declaration level of this variable to instance level now we declare 4 instance varaiables to be used by few function this lead to decrease cohesion and as we see keep function small may lead to create new class to demonestrate such scenario and increase cohesion  
+### maintaining Cohesion if we have function own 4 variables and we want to extract method from it now we need to upgrade declaration level of this variable to instance level now we declare 4 instance varaiables to be used by few function this lead to decrease cohesion and as we see keep function small may lead to create new class to demonestrate such scenario and increase cohesion.  
+
+### Organization for Change you should know any software in any time need to be modified so we should know how to apply OCP well to deal with modification because if we didn't put in consider class will need to update may be test will fail if we modify class or another depedant funcionality goes down because of this modification
 
