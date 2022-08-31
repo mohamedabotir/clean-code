@@ -20,7 +20,7 @@
 - clarification in writing comment to show return type of function or type of argument and so on this for external api or library can't edit there name remember naming is better for comment
 - write comment for warning consequence if you has function is not thread safe you may need to comment it as it's thread not safe
 - to do you may has function but didn't implement yet you can comment it as
-// TODO and the reason
+// TODO and the Reason of function 
 - comment may use to amplify the importance
 
 ### bad comment
