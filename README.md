@@ -33,7 +33,8 @@ The length of a name should correspond to the size of its scope
 ### hungarian notation 
 avoid it experssion:variablenameVariableType example:phoneString
 ### member prefixes
-
+### interface and implementation
+avoid name your interface as IShapFactory and class ShapeFactory use rather ShapeFactory for interface and ShapeFactoryImpl as class better because you want to let reader know type only when use ShapeFactory interface
 ## chapter 3
 
 - shorter function the better
