@@ -214,7 +214,7 @@ should not have to read through a log file to tell whether the tests pass.
 before the production code that makes them pass. If you write tests after the production
 code, then you may find the production code to be hard to test.
 
-## Class
+## chapter 10 class
 ### class should be smaller how we measure it not as function we count physical line but by class responsability 
 ### Cohesion the more instance variable methods used the more class cohesion
 ### maintaining Cohesion if we have function own 4 variables and we want to extract method from it now we need to upgrade declaration level of this variable to instance level now we declare 4 instance varaiables to be used by few function this lead to decrease cohesion and as we see keep function small may lead to create new class to demonestrate such scenario and increase cohesion.  
