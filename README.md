@@ -12,6 +12,23 @@ Programmers must avoid leaving false clues that obscure the meaning of code
 Do not refer to a grouping of accounts as an accountList If the container holding the
 accounts is not actually a List it may lead to false conclusions. So accountGroup or
 bunchOfAccounts or just plain accounts would be better.
+### use pronounceable names
+example 
+class DtaRcrd102 {
+private Date genymdhms;
+private Date modymdhms;
+private final String pszqint = "102";
+/* ... */
+};
+to
+class Customer {
+private Date generationTimestamp;
+private Date modificationTimestamp;;
+private final String recordId = "102";
+/* ... */
+};
+### use searchable names 
+The length of a name should correspond to the size of its scope
 
 ## chapter 3
 
