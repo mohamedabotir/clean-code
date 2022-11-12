@@ -29,6 +29,10 @@ private final String recordId = "102";
 };
 ### use searchable names 
 The length of a name should correspond to the size of its scope
+### avoid encoding
+### hungarian notation 
+avoid it experssion:variablenameVariableType example:phoneString
+
 
 ## chapter 3
 
