@@ -32,7 +32,7 @@ The length of a name should correspond to the size of its scope
 ### avoid encoding
 ### hungarian notation 
 avoid it experssion:variablenameVariableType example:phoneString
-
+### member prefixes
 
 ## chapter 3
 
