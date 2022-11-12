@@ -1,4 +1,17 @@
 # clean-code
+## chapter 2
+meaningful names
+### use intention revealing names 
+example 
+int d; // elapsed time in days
+The name d reveals nothing. It does not evoke a sense of elapsed time, nor of days. We
+should choose a name that specifies what is being measured and the unit of that measurement:
+int elapsedTimeInDays;
+### avoid disinformation 
+Programmers must avoid leaving false clues that obscure the meaning of code
+Do not refer to a grouping of accounts as an accountList If the container holding the
+accounts is not actually a List it may lead to false conclusions. So accountGroup or
+bunchOfAccounts or just plain accounts would be better.
 
 ## chapter 3
 
