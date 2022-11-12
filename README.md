@@ -57,7 +57,32 @@ Complex fulcrumPoint = Complex.FromRealNumber(23.0);
 is generally better than
 Complex fulcrumPoint = new Complex(23.0);
 Consider enforcing their use by making the corresponding constructors private.
-
+### don't be cute
+If names are too clever, they will be
+memorable only to people who share the
+author’s sense of humor
+### pick one word per concept
+Pick one word for one abstract concept and stick with it. For instance, it’s confusing to
+have fetch, retrieve, and get as equivalent methods of different classes
+### don't pun
+Avoid using the same word for two purposes. Using the same term for two different ideas
+is essentially a pun.
+### Add Meaningful Context 
+If you follow the “one word per concept” rule, you could end up with many classes
+that have, for example, an add method. As long as the parameter lists and return values of
+the various add methods are semantically equivalent, all is well.
+However one might decide to use the word add for “consistency” when he or she is not
+in fact adding in the same sense. Let’s say we have many classes where add will create a
+new value by adding or concatenating two existing values. Now let’s say we are writing a
+new class that has a method that puts its single parameter into a collection. Should we call
+this method add? It might seem consistent because we have so many other add methods,
+but in this case, the semantics are different, so we should use a name like insert or append
+instead. To call the new method add would be a pun.
+### use solution domain names
+example JobQueue,ShapeFactory ,etc.
+### use problem domain names
+When there is no “programmer-eese” for what you’re doing, use the name from the problem domain. At least the programmer who maintains your code can ask a domain expert
+what it means.
 ## chapter 3
 
 - shorter function the better
