@@ -229,4 +229,19 @@ Kent Becks Rules
 - Minimizes number of classes and methods
 you may need to use template method 
 to shrink big methods do multiple task as it elemenate duplication
+## Chapter 13
+concurrency decouple what get done from when get done 
+
+#### "Decoupling what from when can dramatically improve both the throughput and structures of an application. From a structural point of view the application looks like many little collaborating computers rather than one big main loop. This can make the system easier to understand and offers some powerful ways to separate concerns.
+(Page 209). "
+### Concurrency defense Priniciples
+- Single Responsibility Principle
+concurrent system is enough complex so you should make each module express it self only
+(Page 212). 
+- Limit scope Of Data 
+protect shared data in critical section of your code 
+- Copies of Data A good way to avoid shared data is to avoid sharing the data in the first place. In some situations it is possible to copy objects and treat them as read-only. In other cases it might be possible to copy objects, collect results from multiple threads in these copies and then merge the results in a single thread.
+(Page 212). 
+- make your thread independant as possible
+![image](https://user-images.githubusercontent.com/52336027/205496334-4b02aa6c-64df-4a6f-8f53-f6e3aca74966.png)
 
