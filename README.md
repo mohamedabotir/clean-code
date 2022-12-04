@@ -244,4 +244,7 @@ protect shared data in critical section of your code
 (Page 212). 
 - make your thread independant as possible
 ![image](https://user-images.githubusercontent.com/52336027/205496334-4b02aa6c-64df-4a6f-8f53-f6e3aca74966.png)
-
+popular problem 
+- producer consumer
+- readers - writers
+- dining philosophers
