@@ -221,3 +221,12 @@ code, then you may find the production code to be hard to test.
 
 ### Organization for Change you should know any software in any time need to be modified so we should know how to apply OCP well to deal with modification because if we didn't put in consider class will need to update may be test will fail if we modify class or another depedant funcionality goes down because of this modification and also this violate ocp principal
 
+## Chapter 12
+Kent Becks Rules
+- Runs All Tests
+- Contains no Duplication
+-  Express intent of programmer 
+- Minimizes number of classes and methods
+you may need to use template method 
+to shrink big methods do multiple task as it elemenate duplication
+
