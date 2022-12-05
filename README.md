@@ -250,3 +250,12 @@ https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-im
 - readers - writers
 - dining philosophers
 
+### Shut-down
+Recommendation: Think about shut-down early and get it working early. It’s going to take longer than you expect. Review existing algorithms because this is probably harder than you think.
+(Page 217). 
+### Testing
+Recommendation: Write tests that have the potential to expose problems and then run them frequently, with different programatic configurations and system configurations and load. If tests ever fail, track down the failure. Don’t ignore a failure just because the tests pass on a subsequent run. That is a whole lot to take into consideration.
+Here are a few more fine-grained recommendations:
+• Treat spurious failures as candidate threading issues. 
+• Get your nonthreaded code working first.
+(Page 217). 
