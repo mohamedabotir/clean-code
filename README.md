@@ -256,14 +256,24 @@ Recommendation: Think about shut-down early and get it working early. It’s goi
 ### Testing
 Recommendation: Write tests that have the potential to expose problems and then run them frequently, with different programatic configurations and system configurations and load. If tests ever fail, track down the failure. Don’t ignore a failure just because the tests pass on a subsequent run. That is a whole lot to take into consideration.
 Here are a few more fine-grained recommendations:
+
 • Treat spurious failures as candidate threading issues. 
+
 • Get your nonthreaded code working first.
+
 (Page 217). 
+
 • Make your threaded code pluggable. 
+
 • Make your threaded code tunable. 
+
+
 • Run with more threads than processors. 
+
 • Run on different platforms. 
+
 • Instrument your code to try and force failures.
+
 (Page 218). 
 
 
