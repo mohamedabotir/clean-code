@@ -259,3 +259,11 @@ Here are a few more fine-grained recommendations:
 • Treat spurious failures as candidate threading issues. 
 • Get your nonthreaded code working first.
 (Page 217). 
+• Make your threaded code pluggable. 
+• Make your threaded code tunable. 
+• Run with more threads than processors. 
+• Run on different platforms. 
+• Instrument your code to try and force failures.
+(Page 218). 
+
+
