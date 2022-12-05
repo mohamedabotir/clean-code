@@ -263,7 +263,10 @@ Here are a few more fine-grained recommendations:
 
 (Page 217). 
 
-• Make your threaded code pluggable. 
+• Make your threaded code pluggable
+Write the concurrency-supporting code such that it can be run in several configurations
+
+(Page 218). 
 
 • Make your threaded code tunable. 
 
@@ -273,6 +276,14 @@ Here are a few more fine-grained recommendations:
 • Run on different platforms. 
 
 • Instrument your code to try and force failures.
+It is normal for flaws in concurrent code to hide. Simple tests often don’t expose them. Indeed, they often hide during normal processing. They might show up once every few hours, or days, or weeks!
+There are two options for code instrumentation: 
+
+• Hand-coded
+
+• Automated
+ 
+(Page 219). 
 
 (Page 218). 
 
