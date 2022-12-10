@@ -289,3 +289,8 @@ There are two options for code instrumentation:
 
 ## chapter 14
 you will know how to clean code when write bad code and try clean it
+
+## chapter 15
+And so we have satisfied the Boy Scout Rule. We have left this module a bit cleaner than we found it. Not that it wasn’t clean already. The authors had done an excellent job with it. But no module is immune from improvement, and each of us has the responsibility to leave the code a little better than we found it.
+
+(Page 296). 
