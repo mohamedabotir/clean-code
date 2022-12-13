@@ -294,3 +294,10 @@ you will know how to clean code when write bad code and try clean it
 And so we have satisfied the Boy Scout Rule. We have left this module a bit cleaner than we found it. Not that it wasn’t clean already. The authors had done an excellent job with it. But no module is immune from improvement, and each of us has the responsibility to leave the code a little better than we found it.
 
 (Page 296). 
+
+## chapter 17
+- inappropriate information : information shouldn't be related to developemtn
+- obsolote comment : comment became so old so we need to replace it 
+- redundent comment : describe some thing describe it self 
+- poor written comment : write comment carefully and with correct grammer 
+- commented out code : code which one day being comment and every one say one day programmer should need it ,this day will never come !
