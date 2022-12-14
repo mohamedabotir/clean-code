@@ -306,4 +306,7 @@ And so we have satisfied the Boy Scout Rule. We have left this module a bit clea
 - build requires more than one step ?! should be able to build project by using one command only
 - test requires more than one step ?! you should be able to run all test cases by hit one command 
 ### functions
-
+- too many arguments : should have small number of arguments one ,two ,three ,greater than this you should ask question
+- output argumen : user expect to insert input not affect or change state of object by using input
+- flag argument : this may lead to make function do multiple thing and this shouldln't be
+- dead function : function never used this is wastful so you should delete it
