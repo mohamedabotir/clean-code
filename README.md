@@ -310,3 +310,6 @@ And so we have satisfied the Boy Scout Rule. We have left this module a bit clea
 - output argumen : user expect to insert input not affect or change state of object by using input
 - flag argument : this may lead to make function do multiple thing and this shouldln't be
 - dead function : function never used this is wastful so you should delete it
+### General
+- multiple language in one source file : source file must contain one and only one language
+- obvious behavior unimplemented : if you expect some thing in code reasonably and didn't find it you will lost others trust
