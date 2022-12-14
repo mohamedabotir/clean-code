@@ -296,8 +296,14 @@ And so we have satisfied the Boy Scout Rule. We have left this module a bit clea
 (Page 296). 
 
 ## chapter 17
+### comment
 - inappropriate information : information shouldn't be related to developemtn
 - obsolote comment : comment became so old so we need to replace it 
 - redundent comment : describe some thing describe it self 
 - poor written comment : write comment carefully and with correct grammer 
 - commented out code : code which one day being comment and every one say one day programmer should need it ,this day will never come !
+### environment
+- build requires more than one step ?! should be able to build project by using one command only
+- test requires more than one step ?! you should be able to run all test cases by hit one command 
+### functions
+
