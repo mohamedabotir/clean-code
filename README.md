@@ -316,3 +316,4 @@ And so we have satisfied the Boy Scout Rule. We have left this module a bit clea
 - G3:Incorrect Behavior at the Boundaries : programmer say function should work but this can behave incorrect in some cases and other boundary
 - G4:Overriden Safties : turning of failing tests and tell your self you will get them to pass later
 - G5:Eliminating Duplication one the most important rule in software design and some people called that dry principal and you can eliminate dublication by using switch case or patterns such as template method or strategy pattern
+- G6:
