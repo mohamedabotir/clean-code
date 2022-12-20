@@ -311,5 +311,7 @@ And so we have satisfied the Boy Scout Rule. We have left this module a bit clea
 - flag argument : this may lead to make function do multiple thing and this shouldln't be
 - dead function : function never used this is wastful so you should delete it
 ### General
-- multiple language in one source file : source file must contain one and only one language
-- obvious behavior unimplemented : if you expect some thing in code reasonably and didn't find it you will lost others trust
+- G1:multiple language in one source file : source file must contain one and only one language
+- G2:obvious behavior unimplemented : if you expect some thing in code reasonably and didn't find it you will lost others trust
+- G3:Incorrect Behavior at the Boundaries : programmer say function should work but this can behave incorrect in some cases and other boundary
+- G4:Overriden Safties : turning of failing tests and tell your self you will get them to pass later
