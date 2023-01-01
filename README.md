@@ -362,5 +362,12 @@ return new Money(straightPay + overtimePay);
 -  G24: follow standard convintions 
   Every team should follow a coding standard based on common industry norms. This coding standard should specify things like where to declare instance variables; how to name classes, methods, and variables; where to put braces; and so on. The team should not need a document to describe these conventions because their code provides the examples.
 - G25: replace magic numbers with named constants 
+- G26: be precise don't be lazy if you ddidn;t expect concurrent change in price for example but may happen so be precise
+- G27: structure over convention enforce design decisions with structure rather convention 
+- G28: encapsulate conditionals boolean hard to understand without having to see it in the context of if /while
+For example: if (shouldBeDeleted(timer)) is preferable to if (timer.hasExpired() && !timer.isRecurrent())
+(Page 332).
+= 
+-G29: 
  
 
