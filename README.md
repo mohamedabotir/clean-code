@@ -349,4 +349,4 @@ int overtimePay = (int)Math.round(overTime*tenthRate*1.5);
 return new Money(straightPay + overtimePay);
 } }
 (Page 324). 
-- G15: 
+- G15: selector argument argument change behavior of function we can say make one function do two thing may more
