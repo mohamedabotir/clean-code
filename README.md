@@ -322,5 +322,30 @@ And so we have satisfied the Boy Scout Rule. We have left this module a bit clea
 - G9: Dead code code doesn't executed or in if condition can't happen ever
 - G10: vertical separation variables and function should declare near to where  it used 
 - G11: inconsistancy if you write your code as a pattern like ProcessAdd you can write another like ProcessMultiplication
-- G12: 
+- G12: Clutter constructor never use and variables aren't used and comment that add no information ,function never called
+- G13: artificial coupling don't couple two module didn't has the same direct purpose anothr example say we have global variable we shouldn't include it within general purpose class so we enforce more classes to use it
+- G14: feature envy when we use object of other class to manipulate the data within object so we should separate this method 
+### example 
 
+public class HourlyPayCalculator { 
+public Money calculateWeeklyPay(HourlyEmployee e) {
+int tenthRate = e.getTenthRate().getPennies();
+int tenthsWorked = e.getTenthsWorked();
+int straightTime = Math.min(400, tenthsWorked); 
+int overTime = Math.max(0, tenthsWorked - straightTime);
+int straightPay = straightTime * tenthRate;
+int overtimePay = (int)Math.round(overTime*tenthRate*1.5);
+return new Money(straightPay + overtimePay); } }
+(Page 324). 
+### solution 
+public class HourlyPayCalculator {
+public Money calculateWeeklyPay(HourlyEmployee e) { 
+int tenthRate = e.getTenthRate().getPennies();
+int tenthsWorked = e.getTenthsWorked();
+int straightTime = Math.min(400, tenthsWorked);
+int overTime = Math.max(0, tenthsWorked - straightTime);
+int straightPay = straightTime * tenthRate;
+int overtimePay = (int)Math.round(overTime*tenthRate*1.5);
+return new Money(straightPay + overtimePay);
+} }
+(Page 324). 
