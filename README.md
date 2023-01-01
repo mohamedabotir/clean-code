@@ -316,4 +316,11 @@ And so we have satisfied the Boy Scout Rule. We have left this module a bit clea
 - G3:Incorrect Behavior at the Boundaries : programmer say function should work but this can behave incorrect in some cases and other boundary
 - G4:Overriden Safties : turning of failing tests and tell your self you will get them to pass later
 - G5:Eliminating Duplication one the most important rule in software design and some people called that dry principal and you can eliminate dublication by using switch case or patterns such as template method or strategy pattern
-- G6:
+- G6: Code at Wrong level of abstraction we should seperate higher level abstraction from low level
+- G7: Base Class Depending on Their Derivatives
+- G8: Too many information with may small interface can you do many with little better than interface with unused or unrelated funcion may implement 
+- G9: Dead code code doesn't executed or in if condition can't happen ever
+- G10: vertical separation variables and function should declare near to where  it used 
+- G11: inconsistancy if you write your code as a pattern like ProcessAdd you can write another like ProcessMultiplication
+- G12: 
+
