@@ -367,7 +367,6 @@ return new Money(straightPay + overtimePay);
 - G28: encapsulate conditionals boolean hard to understand without having to see it in the context of if /while
 For example: if (shouldBeDeleted(timer)) is preferable to if (timer.hasExpired() && !timer.isRecurrent())
 (Page 332).
-= 
--G29: 
+- G29: 
  
 
