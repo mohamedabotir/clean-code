@@ -351,4 +351,11 @@ return new Money(straightPay + overtimePay);
 (Page 324). 
 - G15: selector argument argument change behavior of function we can say make one function do two thing may more
 - G16: Obscured Intent express you intent use notation like hungarian or magicNumber has bad effects 
+- G17:  Misplaced Responsibility put constant or variable or any thing in wrong place
+- G18: inapropriate static  Again, this seems like a reasonable static function. It doesn’t operate on any particular object and gets all it’s data from it’s arguments.
+-  G19: Use Explanatory Variables
+-  G20: function name should say what they do
+-  G21: understand algorithm  
+
+ 
 
