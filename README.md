@@ -356,6 +356,11 @@ return new Money(straightPay + overtimePay);
 -  G19: Use Explanatory Variables
 -  G20: function name should say what they do
 -  G21: understand algorithm  
-
+-  G22: make logical dependancies physical two module related to each other but if one variable realted to first and put it in second this lead to logical dependancy 
+ and this violate G17 rule of misplaced responsibiity
+-  G23: prefer polymorphism to if/else ,switch/case
+-  G24: follow standard convintions 
+  Every team should follow a coding standard based on common industry norms. This coding standard should specify things like where to declare instance variables; how to name classes, methods, and variables; where to put braces; and so on. The team should not need a document to describe these conventions because their code provides the examples.
+- G25: replace magic numbers with named constants 
  
 
